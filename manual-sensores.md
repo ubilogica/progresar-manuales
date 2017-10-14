@@ -27,7 +27,7 @@ El principal problema técnico que surgió en este diseño fue la memoria limita
 
 Por esta razón se generaba mucha inestabilidad en el dispositivo. Finalmente en esta fase se logró una comunicación de una vía desde el dispositivo hasta la hoja de cálculo de Google logrando así registrar los datos, trabando al borde de la memoria permitida.
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/A1qyAoJqcAGKyrTUdoUe7g]
+![](image02.png?raw=true)
 Para este proósito se trabajó con la librería de adafruit,  esta fue especialmente diseñada para este dispositivo.
 
 Dado que es muy común el problema de la inestabilidad por falta de memoria,  investigamos sobre los proyectos que han atacado este problema,   probando varias librerías buscando un desempeño bueno en la transmisión de datos a través de una petición WEB, todo esto, con la limitada memoria que tiene el arduino Pro mini.
@@ -36,7 +36,7 @@ TinyGSM y FONA 808
 
 Luego de probar varias librerías  decidimos usar la librería tinygsm ([_http://www.arduinolibraries.info/libraries/tiny-gsm_](http://www.arduinolibraries.info/libraries/tiny-gsm)).
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/0S4X6vSCwNI5zN98F-W_uA]
+![](image03.jpg?raw=true)
 Sin embargo su implementación No fue fácil para el chip que tenemos que es el FONA808.   Trabajamos junto con el desarrollador cambiando algunas líneas de código para que trabajara satisfactoriamente con  nuestro Hardware.
 
 Esta librería fue especialmente diseñada para ahorrar la memoria.

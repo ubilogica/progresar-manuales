@@ -36,7 +36,7 @@ TinyGSM y FONA 808
 
 Luego de probar varias librerías  decidimos usar la librería tinygsm ([_http://www.arduinolibraries.info/libraries/tiny-gsm_](http://www.arduinolibraries.info/libraries/tiny-gsm)).
 
-![](image03.jpg?raw=true)
+![](image03.jpg)
 Sin embargo su implementación No fue fácil para el chip que tenemos que es el FONA808.   Trabajamos junto con el desarrollador cambiando algunas líneas de código para que trabajara satisfactoriamente con  nuestro Hardware.
 
 Esta librería fue especialmente diseñada para ahorrar la memoria.

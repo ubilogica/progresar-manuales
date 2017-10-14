@@ -9,7 +9,7 @@ El Acueducto progresar había desarrollado junto con la universidad de los Andes
 * Que los datos fueran visualizados por medio de una interfaz basada en un mapa
 * dado que el sensor  debe sumergirse en el agua,  necesita un recipiente hermético.  se  requiere reducir al mínimo la necesidad de abrir este recipiente
 
-[Image: ![](images/image01.png?raw=true)]
+![](image01.png?raw=true)
 Estos sensores estaban construidos de acuerdo a las siguientes características de diseño
 
 * Tienen una tarjeta principal la cual tiene un circuito  de medición de conductividad

@@ -53,31 +53,31 @@ Una de las grandes necesidades surgidas del trabajo con estos sensores es la mej
 
 Por esta razón, como parte del proyecto también investigamos plataformas de toma de datos que ahora son conocidas como plataformas de internet de las cosas (IoT). Luego de probar el desempeño de varias plataformas,  encontramos que la que más corresponde a nuestros intereses es la plataforma thinger (thinger.io)
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/scrmz9SojorIStHEvazJsQ]
+![](image04.png?raw=true)
 Esta plataforma tiene varias funcionalidades importantes para nuestro proyecto,  a saber:
 
 * Registro de los datos independiente por cada dispositivo
 * Comunicación en doble vía con cada dispositivo
     * Esto permite que en el futuro se puedan incluso controlar variables y procesos en remoto al dispositivo
 * Control remoto del dispositivo a través de una app movil
-* [Image: https://quip.com/-/blob/dGbAAA4Baqc/wRtAt0X0KtPUXON8pzAYzA]
+* ![](image05.png?raw=true)
 * Tableros de control  personalizables de cada uno de los dispositivos
     * Las personas de progresar pueden personalizar los tableros de control sin necesidad de hacer un desarrollo de software,  esta personalización se hace de  una manera similar a Cómo se hacen reportes en una hoja de cálculo. Pero manejando datos en tiempo real
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/QX61kwUk7wq7oAR2qxqH0A]
+![](image06.png?raw=true)
 Sensorica
 
 Calibración de los sensores de conductividad
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/pRuY58JjESj44pEYKIcZjw]
+![](image07.png?raw=true)
 Así que una buena parte del tiempo del desarrollo lo destinamos a la investigación y calibración de la toma de datos de conductividad,  para ello buscamos dispositivos calibrados y profesionales que realizaron esta tarea para poder comprobar los datos obtenidos por el dispositivo
 
 El cableado de los bornes fue reemplazado y protegido con el fin de garantizar estanqueidad.
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/sGm9-IWFXGbb8ctxftiJUQ][Image: https://quip.com/-/blob/dGbAAA4Baqc/eTVMOAjXCF9sNxMW-oY_zA]
+![](image08.png?raw=true)![](image09.png?raw=true)
 Después de realizar muchas tomas de datos Y compararlos con los dispositivos  calibrados  se llegó a la siguiente curva
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/faxV1NCUa0ADeinxECJsnA]
+![](image10.png?raw=true)
 Concluyendo  que aunque puede tomar un dato de calibración que tiene sentido,  no es posible llegar a calibrar este dispositivo tal como están calibrados los otros con los que comparamos .
 
 En las mediciones  de agua con determinada conductividad al hacer dos mediciones no se obtenía el mismo dato.  por eso llegamos a  esta conclusión
@@ -96,13 +96,13 @@ Publicación del código del dispositivo
 
 todos los códigos desarrollados para este proyecto se hicieron de uso público,  estos pueden ser los encontrados en un repositorio github:  (https://github.com/leoguti/progresar)
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/RW6elzLdLUM3ovuFYCCSlA]
+![](image11.png?raw=true)
 Allí se pueden encontrar más información técnica acerca del desarrollo aparte de los códigos el si mismos.
 
 Representación geográfica de los resultados
 
 De acuerdo a un diseño que conjuntamente hicimos con Progresar, realizamos una interfaz basada en mapas, donde toda la información del territorio se conjuga con la información de los sensores, permitiendo interactuar con los resultados de las mediciones de manera conjunta.
 
-[Image: https://quip.com/-/blob/dGbAAA4Baqc/Li6TdLqwcnaGxWY8NT8QNQ][Image: https://quip.com/-/blob/dGbAAA4Baqc/tTvkN0Vc1SfUJH6JEpmwsg]
+![](image12.png?raw=true)![](image13.png?raw=true)
 La interfaz basada en el territorio conjuga todos los actores tanto de personas, como de sensores en una misma interacción. Pensamos que en el futuro podemos hacer mucho para mejorar el mapa base, siendo este un tema tan grande e importante que daría para un proyecto en si mismo.
 
